@@ -1,0 +1,79 @@
+.tables {
+    overflow: hidden;
+    color: black;
+    font-family: Arial, serif;
+    border: thin solid black;
+    margin: 20px;
+}
+
+/*status-bar*/
+.status-bar {
+    overflow: hidden;
+    border-bottom: thin solid silver;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.status-bar h3 {
+    float: left;
+}
+
+.status-bar p {
+    float: right;
+}
+
+.detail-container {
+    overflow: hidden;
+    align-items: center;
+}
+
+.text-detail {
+    float: left;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.table-info {
+    overflow: hidden;
+    float: top;
+    align-items: center;
+}
+
+.order-detail{
+    float: top;
+    margin-right: 20px;
+
+}
+
+.text-line  {
+    overflow: hidden;
+
+}
+
+.detail-settings {
+    float: right;
+    width: 150px;
+    align-items: center;
+    margin: 50px;
+}
+
+
+.detail-settings button {
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 0;
+    height: 40px;
+    width: 150px;
+    background: none;
+    border: black solid thin;
+    line-height: 40px;
+    text-align: center;
+}
+
+.confirmation-bar {
+    float: right;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 10px;
+}
